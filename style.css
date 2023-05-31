@@ -1,0 +1,166 @@
+/*Document css de la page Planetes.html réalisée en septembre 2022 par Dylan COVAREL et Brieuc MEYER*/
+
+body {
+	background-image : url("Images/ImageDeFond2.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/* FLECHE RETOUR HAUT DE PAGE */
+#scroll_to_top {
+	position: fixed;
+	width: 50px;
+	height: 5px;
+	bottom: 50px;
+	right: 30px;
+ }
+ #scroll_to_top img {
+	width: 55px;
+ }
+
+/* FOOTER */
+ footer {
+	position: sticky;
+    display: flex;
+    text-align: center;
+    padding: 0px;
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* BARRE DE NAVIGATION */
+.navbar{
+	width: 100%;
+	padding: 0%;
+}
+
+
+li{
+	text-align: center;
+}
+
+/* TITRES */
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+h5{
+	text-align: justify;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+/* LOGOS */
+.logo_accueil{
+	display: flex;
+	margin: auto;
+	width: 30%;
+}
+
+.logoMG{
+	display: flex;
+	margin: auto;
+	width: 10%;
+}
+
+.logoACS{
+	display: flex;
+	margin: auto;
+	width: 20%;
+}
+
+.logoVBA{
+	display: flex;
+	margin: auto;
+	width: 30%;
+}
+
+.logoNode{	
+	display: flex;
+	margin: auto;
+	width: 20%;
+}
+
+/* CARTES MAPS */
+.maps{
+	display: flex;
+	margin: auto;
+	width: 50%;
+}
+
+/* PHOTO CV */
+.cv{
+	display: flex;
+	margin: auto;
+	width: 600px;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: 8px 8px 10px 0  #1212bf33;
+}
+
+
+.s2{
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: 8px 8px 10px 0  #1212bf33;
+}
+
+.organi {
+	display: flex;
+	margin: auto;
+	width: 90%;
+}
+
+.liste_presentation{
+	display: flex;
+	margin: auto;
+	text-align: center;
+  	width: 500px;
+	/* border-radius: 20px 20px 20px 20px;
+	box-shadow: 8px 8px 10px 0  #1212bf33; */
+}
+
+.imgAudit{
+	display: flex;
+	margin: auto;
+	margin-top: auto;
+	margin-left: 50px;
+	width: 40%;
+	box-shadow: 8px 8px 10px 0  #1212bf33;
+}
+
+.imgQuest{
+	display: flex;
+	margin: auto;
+	margin-top: -550px;
+	margin-right: 50px;
+	width: 51%;
+	box-shadow: 8px 8px 10px 0  #1212bf33;
+}
+
+.imgInterfaceC{
+	display: flex;
+	margin: auto;
+	margin-top: auto;
+	margin-left: 50px;
+	width: 51%;
+	box-shadow: 8px 8px 10px 0  #1212bf33;
+}
+
+.planifica{
+	display: flex;
+	margin: auto;
+	margin-top: auto;
+	margin-left: 50px;
+	width: 51%;
+	box-shadow: 8px 8px 10px 0  #1212bf33;
+}
+
+.missions{
+	margin-left: 50px;
+	margin-right: 50px;
+}
